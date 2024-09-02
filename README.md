@@ -1,2 +1,2 @@
-# ml-dsa
-Implementação do ML-DSA (FIPS 204) na plataforma ARMv8-A
+# ML-DSA
+Implementação do esquema de assinatura digital pós-quântico ML-DSA (FIPS 204) na plataforma ARMv8-A
