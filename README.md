@@ -1,3 +1,5 @@
+<div style="background-color: white; padding: 10px; display: inline-block;">
+
 <img src="https://github.com/user-attachments/assets/214dfa1b-5536-4cdc-9df4-acef1aff5e7f" alt="Imagem de Fundo" width="200" height="auto">
 
 # ML-DSA
@@ -10,3 +12,4 @@ Duas versões estarão disponiveis:
   
 -  ML-DSA-Optimized - Uma implementação otimizada para plataforma ARMv8 com foco na melhoria da performance e que emprega melhores práticas de segurança.
 
+</div>
