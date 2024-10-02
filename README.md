@@ -4,12 +4,21 @@
 
 # ML-DSA
 
-Implementação do esquema de assinatura digital pós-quântico ML-DSA (FIPS 204) na plataforma ARMv8-A.
+Implementação do esquema de assinatura digital pós-quântico ML-DSA (FIPS 204) para plataforma ARMv8-A.
 
-Duas versões estarão disponiveis:
+Instruções de compilação
+A implementação contêm vários programas de teste e benchmarking e um Makefile para facilitar a compilação.
 
--  ML-DSA-Learn - Uma implementação genérica focada no aprendizado do esquema e despreocupada com detalhes de implementação segura e performance.
-  
--  ML-DSA-Optimized - Uma implementação otimizada para plataforma ARMv8 com foco na melhoria da performance e que emprega melhores práticas de segurança.
+Pré-requisitos
+Alguns dos programas de teste requerem o OpenSSL. Se os arquivos de cabeçalho e/ou bibliotecas compartilhadas do OpenSSL não estiverem em um dos locais padrão em seu sistema, é necessário especificar seu local através de flags do compilador e linker nas variáveis de ambiente CFLAGS, NISTFLAGS e LDFLAGS.
+
+Por exemplo, no macOS você pode instalar o OpenSSL via Homebrew executando
+'brew install openssl'
+
+Em seguida, execute:
+'export CFLAGS="-I/opt/homebrew/opt/openssl@1.1/include"
+export NISTFLAGS="-I/opt/homebrew/opt/openssl@1.1/include"
+export LDFLAGS="-L/opt/homebrew/opt/openssl@1.1/lib"'
+
 
 </div>
