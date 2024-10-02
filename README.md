@@ -6,7 +6,7 @@
 
 Implementação do esquema de assinatura digital pós-quântico ML-DSA (FIPS 204) para plataforma ARMv8-A.
 
-Instruções de compilação
+# Instruções de compilação
 A implementação contêm vários programas de teste e benchmarking e um Makefile para facilitar a compilação.
 
 Pré-requisitos
@@ -18,13 +18,15 @@ Por exemplo, no macOS você pode instalar o OpenSSL via Homebrew executando
 
 Em seguida, execute:
 
-`export CFLAGS="-I/opt/homebrew/opt/openssl@1.1/include"
-export NISTFLAGS="-I/opt/homebrew/opt/openssl@1.1/include"
-export LDFLAGS="-L/opt/homebrew/opt/openssl@1.1/lib"`
+`export CFLAGS="-I/opt/homebrew/opt/openssl@1.1/include"`
+
+`export NISTFLAGS="-I/opt/homebrew/opt/openssl@1.1/include"`
+
+`export LDFLAGS="-L/opt/homebrew/opt/openssl@1.1/lib"`
 
 antes da compilação para adicionar os locais dos cabeçalhos e bibliotecas OpenSSL aos respectivos caminhos de busca.
 
-#Programas de Teste
+# Programas de Teste
 Para compilar os programas de teste no Linux ou macOS, vá para o diretório ref/ e execute:
 `make`
 
