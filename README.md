@@ -4,9 +4,9 @@
 
 # ML-DSA
 
-Implementação do esquema de assinatura digital pós-quântico ML-DSA (FIPS 204) para plataforma ARMv8-A.
+Implementação do esquema de assinatura digital pós-quântico Module-Lattice-Based Digital Signature Standard - ML-DSA (FIPS 204) para plataforma ARMv8-A.
 
-# Instruções de compilação
+## Instruções de compilação
 A implementação contêm vários programas de teste e benchmarking e um Makefile para facilitar a compilação.
 
 Pré-requisitos
@@ -26,8 +26,9 @@ Em seguida, execute:
 
 antes da compilação para adicionar os locais dos cabeçalhos e bibliotecas OpenSSL aos respectivos caminhos de busca.
 
-# Programas de Teste
+## Programas de Teste
 Para compilar os programas de teste no Linux ou macOS, vá para o diretório ref/ e execute:
+
 `make`
 
 Isso produz o executável:
