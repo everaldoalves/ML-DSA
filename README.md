@@ -46,6 +46,7 @@ Para realizar o benchmarking da implementação, estão disponíveis os programa
 `make speed`
 
 Isso produz os executáveis:
+
 `test/test_speed$ALG`
 
 para todos os conjuntos de parâmetros $ALG mencionados anteriormente. Os programas relatam as contagens de ciclos medianas e médias de 10.000 execuções de várias funções internas e das funções da API para geração de chaves, assinatura e verificação. Por padrão, o Time Step Counter é usado. Se você quiser obter as contagens de ciclos reais dos Performance Measurement Counters, exporte CFLAGS="-DUSE_RDPMC" antes da compilação.
