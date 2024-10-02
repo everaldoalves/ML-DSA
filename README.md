@@ -13,12 +13,12 @@ Pré-requisitos
 Alguns dos programas de teste requerem o OpenSSL. Se os arquivos de cabeçalho e/ou bibliotecas compartilhadas do OpenSSL não estiverem em um dos locais padrão em seu sistema, é necessário especificar seu local através de flags do compilador e linker nas variáveis de ambiente CFLAGS, NISTFLAGS e LDFLAGS.
 
 Por exemplo, no macOS você pode instalar o OpenSSL via Homebrew executando
-'brew install openssl'
+`brew install openssl`
 
 Em seguida, execute:
-'export CFLAGS="-I/opt/homebrew/opt/openssl@1.1/include"
+`export CFLAGS="-I/opt/homebrew/opt/openssl@1.1/include"
 export NISTFLAGS="-I/opt/homebrew/opt/openssl@1.1/include"
-export LDFLAGS="-L/opt/homebrew/opt/openssl@1.1/lib"'
+export LDFLAGS="-L/opt/homebrew/opt/openssl@1.1/lib"`
 
 
 </div>
