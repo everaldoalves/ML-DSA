@@ -15,26 +15,34 @@ Alguns dos programas de teste requerem o OpenSSL. Se os arquivos de cabeçalho e
 
 Por exemplo, no macOS você pode instalar o OpenSSL via Homebrew executando
 
-```brew install openssl```
+```sh 
+brew install openssl
+```
 
 Em seguida, execute:
 
-```export CFLAGS="-I/opt/homebrew/opt/openssl@1.1/include"```
+```sh
+export CFLAGS="-I/opt/homebrew/opt/openssl@1.1/include
 
-```export NISTFLAGS="-I/opt/homebrew/opt/openssl@1.1/include"```
+export NISTFLAGS="-I/opt/homebrew/opt/openssl@1.1/include
 
-```export LDFLAGS="-L/opt/homebrew/opt/openssl@1.1/lib"```
+export LDFLAGS="-L/opt/homebrew/opt/openssl@1.1/lib
+```
 
 antes da compilação para adicionar os locais dos cabeçalhos e bibliotecas OpenSSL aos respectivos caminhos de busca.
 
 ## Programas de Teste
 Para compilar os programas de teste no Linux ou macOS, vá para o diretório code/ e execute:
 
-```make```
+```sh
+make
+```
 
 Isso produz o executável:
 
-```test/test_dilithium$ALG```
+```sh
+test/test_dilithium$ALG
+```
 
 onde $ALG varia sobre os conjuntos de parâmetros 2, 3 e 5.
 
@@ -45,17 +53,23 @@ Também é possível verificar a assertividade da implementação com o script t
 ## Programas de Benchmarking
 Para realizar o benchmarking da implementação, estão disponíveis os programas de teste de velocidade para CPUs x86 que usam o Time Step Counter (TSC) ou o contador de ciclos real fornecido pelos Performance Measurement Counters (PMC) para medir o desempenho. Para compilar os programas, execute:
 
-```make speed```
+```sh
+make speed
+```
 
 Isso produz os executáveis:
 
-```test/test_speed$ALG```
+```sh
+test/test_speed$ALG
+```
 
 para todos os conjuntos de parâmetros $ALG mencionados anteriormente. Os programas relatam as contagens de ciclos medianas e médias de 10.000 execuções de várias funções internas e das funções da API para geração de chaves, assinatura e verificação. Por padrão, o Time Step Counter é usado. Se você quiser obter as contagens de ciclos reais dos Performance Measurement Counters, exporte CFLAGS="-DUSE_RDPMC" antes da compilação.
 
 Também é possível realizar o benchmark de maneira mais simples com o emprego do script googleBenchmark.sh. Para utilizá-lo, primeiro você precisa instalar o Google Benchmark. O script instalaGoogleBenchmark.sh pode ser usado para auxiliá-lo nessa tarefa. Com a instalação realizada, basta acessar a pasta test e executar o comando:
 
-```./googleBenchmark.sh```
+```sh
+./googleBenchmark.sh
+```
 
 
 </div>
