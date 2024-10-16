@@ -1,3 +1,5 @@
+// Otimização para ARMv8
+
 #include <arm_neon.h>
 #include <stddef.h>
 #include "fips202x2.h"
