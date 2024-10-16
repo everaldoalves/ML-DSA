@@ -53,7 +53,7 @@ Isso produz os executáveis:
 
 para todos os conjuntos de parâmetros $ALG mencionados anteriormente. Os programas relatam as contagens de ciclos medianas e médias de 10.000 execuções de várias funções internas e das funções da API para geração de chaves, assinatura e verificação. Por padrão, o Time Step Counter é usado. Se você quiser obter as contagens de ciclos reais dos Performance Measurement Counters, exporte CFLAGS="-DUSE_RDPMC" antes da compilação.
 
-Também é possível realizar o benchmark de maneira mais simples com o emprego do script googleBenchmark.sh. Para utilizá-lo, basta acessar a pasta test e executar o comando:
+Também é possível realizar o benchmark de maneira mais simples com o emprego do script googleBenchmark.sh. Para utilizá-lo, primeiro você precisa instalar o Google Benchmark. O script instalaGoogleBenchmark.sh pode ser usado para auxiliá-lo nessa tarefa. Com a instalação realizada, basta acessar a pasta test e executar o comando:
 
 ```./googleBenchmark.sh```
 
