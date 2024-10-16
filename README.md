@@ -28,7 +28,7 @@ Em seguida, execute:
 antes da compilação para adicionar os locais dos cabeçalhos e bibliotecas OpenSSL aos respectivos caminhos de busca.
 
 ## Programas de Teste
-Para compilar os programas de teste no Linux ou macOS, vá para o diretório ref/ e execute:
+Para compilar os programas de teste no Linux ou macOS, vá para o diretório code/ e execute:
 
 ```make```
 
