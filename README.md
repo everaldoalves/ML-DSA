@@ -71,6 +71,9 @@ Também é possível realizar o benchmark de maneira mais simples com o emprego 
 ./googleBenchmark.sh
 ```
 ## Resultados
+A tabela a seguir apresenta os resultados alcançados comparando os ciclos da implementação de referência [1] e deste trabalho para os três níveis de segurança do ML-DSA.
+
+
 | **Versão**    | **Métrica** | **Impl. Ref.** | **Este Trabalho** | **Aceleração** |
 |---------------|-------------|----------------|-------------------|----------------|
 | **ML-DSA-44** | KeyGen      | 1282           | 613               | 2.09           |
@@ -83,4 +86,5 @@ Também é possível realizar o benchmark de maneira mais simples com o emprego 
 |               | Sign        | 12290          | 4739              | 2.59           |
 |               | Verify      | 3708           | 1666              | 2.23           |
 
+[1] Ducas, L. et al. (2021). CRYSTALS-Dilithium (round 3)
 </div>
