@@ -70,6 +70,17 @@ Também é possível realizar o benchmark de maneira mais simples com o emprego 
 ```sh
 ./googleBenchmark.sh
 ```
-
+## Resultados
+| **Versão**    | **Métrica** | **Impl. Ref.** | **Este Trabalho** | **Aceleração** |
+|---------------|-------------|----------------|-------------------|----------------|
+| **ML-DSA-44** | KeyGen      | 1282           | 613               | 2.09           |
+|               | Sign        | 5937           | 2518              | 2.38           |
+|               | Verify      | 1418           | 659               | 2.15           |
+| **ML-DSA-65** | KeyGen      | 2553           | 997               | 2.56           |
+|               | Sign        | 10964          | 4110              | 2.67           |
+|               | Verify      | 2472           | 1081              | 2.29           |
+| **ML-DSA-87** | KeyGen      | 3515           | 1646              | 2.14           |
+|               | Sign        | 12290          | 4739              | 2.59           |
+|               | Verify      | 3708           | 1666              | 2.23           |
 
 </div>
