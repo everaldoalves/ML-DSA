@@ -71,8 +71,7 @@ Também é possível realizar o benchmark de maneira mais simples com o emprego 
 ./googleBenchmark.sh
 ```
 ## Resultados
-A tabela a seguir apresenta os resultados alcançados comparando os ciclos da implementação de referência [1] e deste trabalho para os três níveis de segurança do ML-DSA.
-
+A tabela a seguir apresenta os resultados alcançados comparando os ciclos da implementação de referência [1] e deste trabalho para os três níveis de segurança do ML-DSA. Os experimentos para avaliação do desempenho foram realizados no  MacBook Air com o chip Apple M1 (8GB RAM), que possui uma arquitetura ARMv8 com suporte a instruções NEON. O compilador utilizado foi o Clang 18.1.8 e o sistema operacional o iOS Sonoma 14.6.1.
 
 | **Versão**    | **Métrica** | **Impl. Ref.** | **Este Trabalho** | **Aceleração** |
 |---------------|-------------|----------------|-------------------|----------------|
