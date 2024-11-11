@@ -1,3 +1,12 @@
+//************************************************************************************************
+// Autor: Everaldo Alves
+// Data: 11 de Setembro/2024
+// Função: poly_polygamma1
+// Descrição: Esta função implementa um benchmark para medir o desempenho de funções de geração de polinômios
+// Objetivo: Comparar implementação de referência com uma versão otimizada para ARMv8 usando NEON
+// Situação atual: Os resultados apontam para uma redução de ˜50% nos ciclos de CPU
+//************************************************************************************************
+
 #include <benchmark/benchmark.h>
 #include <stdint.h>
 #include <stddef.h>

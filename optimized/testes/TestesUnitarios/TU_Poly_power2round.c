@@ -1,4 +1,11 @@
-// NENHUM RESULTADO SATISFATÓRIO FOI OBTIDO COM NEON
+//************************************************************************************************
+// Autor: Everaldo Alves
+// Data: 11 de Setembro/2024
+// Função: poly_power2round
+// Descrição: Esta função arredonda os coeficientes de um polinômio para um valor múltiplo de 2^D 
+// Objetivo: Comparar implementação de referência com uma versão otimizada para ARMv8 usando NEON
+// Situação atual: Resultados NÃO são satisfatórios
+//************************************************************************************************
 
 #include <stdio.h>
 #include <stdint.h>

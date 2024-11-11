@@ -1,3 +1,12 @@
+//************************************************************************************************
+// Autor: Everaldo Alves
+// Data: 11 de Setembro/2024
+// Função: polyvec_matrix_expand
+// Descrição: Esta função realiza a expansão de uma matriz de polinômios
+// Objetivo: Comparar implementação de referência com uma versão otimizada para ARMv8 usando NEON
+// Situação atual: Os resultados apontam para uma redução de ˜30% nos ciclos de CPU
+//************************************************************************************************
+
 
 #include <arm_neon.h>
 #include "cpucycles.h"

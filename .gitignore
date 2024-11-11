@@ -1,0 +1,14 @@
+.DS_Store
+basic/*
+optimized/code/test/googleBenchmarkDilithiun_*
+optimized/code/test/googleBenchmarkDilithiun
+optimized/code/test/test_speed2
+optimized/code/test/test_speed3
+optimized/code/test/test_speed5	
+optimized/code/test/test_vectors2
+optimized/code/test/test_vectors3
+optimized/code/test/test_vectors5
+optimized/code/test/test_dilithium2
+optimized/code/test/test_dilithium3
+optimized/code/test/test_dilithium5
+optimized/code/test/googleBenchmarkDilithiun_mode*

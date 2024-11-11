@@ -1,3 +1,12 @@
+//************************************************************************************************
+// Autor: Everaldo Alves
+// Data: 11 de Setembro/2024
+// Função: poly_sub
+// Descrição: Esta função realiza a subtração de dois polinômios
+// Objetivo: Comparar implementação de referência com uma versão otimizada para ARMv8 usando NEON
+// Situação atual: Os resultados apontam para uma redução de ˜50% nos ciclos de CPU
+//************************************************************************************************
+
 #include <stdio.h>
 #include <stdint.h>
 #include <stdlib.h>
