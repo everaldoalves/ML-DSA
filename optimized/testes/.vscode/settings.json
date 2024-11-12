@@ -1,7 +1,0 @@
-{
-    "files.associations": {
-        "time.h": "c",
-        "tu_poly_": "c",
-        "locale": "c"
-    }
-}
