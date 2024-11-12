@@ -12,3 +12,5 @@ optimized/code/test/test_dilithium2
 optimized/code/test/test_dilithium3
 optimized/code/test/test_dilithium5
 optimized/code/test/googleBenchmarkDilithiun_mode*
+optimized/code/.vscode
+optimized/code/benchmark/*
